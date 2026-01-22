@@ -2,7 +2,7 @@
 
 SERVICE=${SERVICE:=none}
 
-gluetun_port_endpoint="http://localhost:8000/v1/openvpn/portforwarded"
+gluetun_port_endpoint="http://localhost:8000/tmp/gluetun/forwarded_port"
 transmission_config="/config/settings.json"
 nicotine_config="/config/config"
 
